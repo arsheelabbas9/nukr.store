@@ -506,3 +506,4 @@ def render_buyer_feed(data):
                         st.image(rp['image'], width=50)
                         if st.button(rp['name'][:10]+"..", key=f"rec_{rp['id']}"):
                             _navigate_to("product_detail", rp['id'])
+
